@@ -43,7 +43,7 @@ module.exports = {
         
      
         black: {
-          "black": "#000000",
+         
           200: '#1d1d1f',
           300: '#131313',
           400: '#312d22',
@@ -150,7 +150,11 @@ module.exports = {
       inset: {
         '45': "180px",
         
+        
 
+      },
+      spacing: {
+        '25': '100px',
       },
       opacity: {
         '60': '60%',

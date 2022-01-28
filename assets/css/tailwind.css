@@ -686,8 +686,24 @@ video {
 	grid-column: span 12 / span 12;
 }
 
+.col-span-8 {
+	grid-column: span 8 / span 8;
+}
+
+.col-span-10 {
+	grid-column: span 10 / span 10;
+}
+
+.col-span-9 {
+	grid-column: span 9 / span 9;
+}
+
 .float-right {
 	float: right;
+}
+
+.m-auto {
+	margin: auto;
 }
 
 .mr-6 {
@@ -738,6 +754,26 @@ video {
 	margin-top: 1.25rem;
 }
 
+.mb-6 {
+	margin-bottom: 1.5rem;
+}
+
+.ml-10 {
+	margin-left: 2.5rem;
+}
+
+.mb-12 {
+	margin-bottom: 3rem;
+}
+
+.mb-8 {
+	margin-bottom: 2rem;
+}
+
+.mb-9 {
+	margin-bottom: 2.25rem;
+}
+
 .block {
 	display: block;
 }
@@ -774,6 +810,18 @@ video {
 	height: 35px;
 }
 
+.h-16 {
+	height: 4rem;
+}
+
+.h-15 {
+	height: 3.75rem;
+}
+
+.h-14 {
+	height: 3.5rem;
+}
+
 .w-87\.5 {
 	width: 350px;
 }
@@ -784,6 +832,22 @@ video {
 
 .w-full {
 	width: 100%;
+}
+
+.w-6\/12 {
+	width: 50%;
+}
+
+.w-5\/12 {
+	width: 41.666667%;
+}
+
+.w-8\/12 {
+	width: 66.666667%;
+}
+
+.w-7\/12 {
+	width: 58.333333%;
 }
 
 .flex-shrink-0 {
@@ -800,6 +864,10 @@ video {
 
 .grid-cols-2 {
 	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -849,6 +917,10 @@ video {
 
 .border-b-2 {
 	border-bottom-width: 2px;
+}
+
+.border-r {
+	border-right-width: 1px;
 }
 
 .border-coolGray-100 {
@@ -920,12 +992,21 @@ video {
 	padding-right: 2rem;
 }
 
+.px-12 {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
 .pb-5 {
 	padding-bottom: 1.25rem;
 }
 
 .pt-3 {
 	padding-top: 0.75rem;
+}
+
+.\!pr-0 {
+	padding-right: 0px !important;
 }
 
 .pt-6 {
@@ -952,12 +1033,32 @@ video {
 	padding-top: 1rem;
 }
 
-.pr-0 {
-	padding-right: 0px;
+.pt-25 {
+	padding-top: 100px;
 }
 
-.\!pr-0 {
-	padding-right: 0px !important;
+.pt-12 {
+	padding-top: 3rem;
+}
+
+.pr-12 {
+	padding-right: 3rem;
+}
+
+.pl-12 {
+	padding-left: 3rem;
+}
+
+.pl-9 {
+	padding-left: 2.25rem;
+}
+
+.pr-6 {
+	padding-right: 1.5rem;
+}
+
+.pl-6 {
+	padding-left: 1.5rem;
 }
 
 .text-center {
@@ -976,12 +1077,20 @@ video {
 	font-size: 28px;
 }
 
+.text-5xl {
+	font-size: 3rem;
+}
+
 .text-xs {
 	font-size: 13px;
 }
 
 .text-18 {
 	font-size: 18px;
+}
+
+.text-6xl {
+	font-size: 3.5rem;
 }
 
 .font-semibold {
@@ -1122,6 +1231,10 @@ video {
 		grid-column: span 6 / span 6;
 	}
 
+	.md\:mt-12 {
+		margin-top: 3rem;
+	}
+
 	.md\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
@@ -1132,6 +1245,10 @@ video {
 
 	.md\:pt-20 {
 		padding-top: 5rem;
+	}
+
+	.md\:pt-25 {
+		padding-top: 100px;
 	}
 }
 
