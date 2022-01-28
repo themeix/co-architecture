@@ -2,7 +2,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    line-height:27.2px;
+    line-height:160%;
     font-weight: 400;
     background-color: var(--white);
 }
@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
    font-family: 'Inter', sans-serif;
-    line-height:28.8px;
+    line-height:100%;
 }
 
 

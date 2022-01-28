@@ -36,17 +36,25 @@ module.exports = {
         padding: '1rem',
        }, 
       colors: {
-        "indigo-500": "#7d7c7d",
+        
         "black": "#000000",
-        "black-200": "   #1d1d1f",
-        'yellow-100': '#ffcc00',
-        'yellow-200': '#f7dfce',
-        'yellow-300': '#f5f4f6',
+       
+      
         
      
+        black: {
+          "black": "#000000",
+          200: '#1d1d1f',
+          300: '#131313',
+          400: '#312d22',
         
+          
+         
+        },
         
       },
+
+     
       backgroundImage: {
         "curved-blue-gradient": "url(/imagenes/precios/curved-blue-gradient-bg.svg)",
         "blue-cyan-gradient": "linear-gradient(90deg, #C84E89 0%, #F15F79 100%);",
@@ -151,6 +159,7 @@ module.exports = {
        lineHeight: {
         '0': '0',
         '13': '13px',
+        '3.25': '3.25',
        
  
        }
