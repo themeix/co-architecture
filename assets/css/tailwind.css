@@ -608,6 +608,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -706,6 +710,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -953,6 +961,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 3rem;
 }
 
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-25 {
+  padding-top: 100px;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1156,6 +1176,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 0px;
   }
 
+  .sm\:pl-12 {
+    padding-left: 3rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.5rem;
   }
@@ -1274,6 +1298,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pl-16 {
     padding-left: 4rem;
+  }
+
+  .md\:pt-40 {
+    padding-top: 10rem;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:text-right {
