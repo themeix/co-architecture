@@ -30,7 +30,7 @@
 		"jquery": "^3.6.0",
 		"jquery.easing": "^1.4.1",
 		"fitvids": "^2.1.1",
-		"tailwindcss": "^2.2.7",
+		"tailwindcss": "^v3.0",
 		"infinite-scroll": "^4.0.1"
 	},
 	"devDependencies": {

@@ -1,3 +1,7 @@
+
+
+
+
 (function ($) {
   "use strict";
   /*
@@ -47,9 +51,20 @@ Preloader
   });
 
 
-
+  /*
+  ------------------------  
+  Fitvids Video
+  --------------------------
+  */
   $(".container-video, .video-container").fitVids();
- 
+   /*
+  ------------------------  
+  Accordion
+  --------------------------
+  */
+
+  $( "#accordion" ).accordion();
+
 
   /*
   ------------------------  
@@ -69,4 +84,24 @@ Preloader
   });
  
 
+  
 }(jQuery));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

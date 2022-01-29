@@ -196,10 +196,38 @@ Keyframes Animation
 
 .sidebar-before-bg {
     background: white;
+
+
+}
+
+.accordion-box .ui-accordion-content {
+    border: none;
+}
+.accordion-box  span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-s {
+    display: none;
 }
 
 
 
+  .ui-icon, .ui-widget-content .ui-icon {
+   
+    display: none;
+}
+
+.accordion-box .ui-accordion-content {
+    margin-left: 36px;
+}
 
 
-
+.accordion-box .ui-accordion-header-active .networking-icon:before {
+    position: absolute;
+    content: "";
+   
+   
+    width: 10px;
+    height: 70px;
+    border-left: 2px solid #000;
+    top: 37px;
+    left: 15px;
+    border-style: dotted;
+}

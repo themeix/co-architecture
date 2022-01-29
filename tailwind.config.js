@@ -37,16 +37,20 @@ module.exports = {
        }, 
       colors: {
         
+      
+        "indigo-500": "#7d7c7d",
         "black": "#000000",
        
-      
-        
+        'yellow-100': '#ffcc00',
+        'yellow-200': '#f7dfce',
+        'yellow-300': '#f5f4f6',
      
         black: {
-         
+          100: '#000000',
           200: '#1d1d1f',
           300: '#131313',
           400: '#312d22',
+          500: '#75756f',
         
           
          
@@ -120,6 +124,7 @@ module.exports = {
       },
       maxWidth: {
         '62.2': '200px',
+        '317': '317px',
       
       },
       width: {
@@ -150,14 +155,13 @@ module.exports = {
       inset: {
         '45': "180px",
         
-        
-
       },
       spacing: {
         '25': '100px',
       },
       opacity: {
         '60': '60%',
+        '3': '.3',
         
        },
        lineHeight: {

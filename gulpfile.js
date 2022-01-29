@@ -15,17 +15,20 @@
 
     var File_Name = 'html-tokenbay.zip';
     var CSS_Files = [
- 
+        './assets/css/jquery-ui.css',
     './node_modules/aos/dist/aos.css', 
     './assets/css/custom.css',
     ];
     var JS_Files = [
+      
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery.easing/jquery.easing.min.js',
     './node_modules/aos/dist/aos.js',
     './node_modules/infinite-scroll/dist/infinite-scroll.pkgd.js', 
     './assets/js/jquery.fitvids.js',   
+    './assets/js/jquery-ui.js',   
     './assets/js/app.js',   
+    
     ];
  
     var Production_CSS_Files = [ 
