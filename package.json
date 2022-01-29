@@ -27,17 +27,11 @@
 	},
 	"dependencies": {
 		"aos": "^2.3.4",
-		"clipboard": "^2.0.8 ",
 		"jquery": "^3.6.0",
-		"jquery.counterup": "^2.1.0",
 		"jquery.easing": "^1.4.1",
-		"magnific-popup": "^1.1.0",
-		"slick-carousel": "^1.6.37",
-		"countup.js": "^2.0.8",
+		"fitvids": "^2.1.1",
 		"tailwindcss": "^2.2.7",
-		"infinite-scroll": "^4.0.1",
-		"datatables": "^1.10.18",
-		"waypoints": "^4.0.1"
+		"infinite-scroll": "^4.0.1"
 	},
 	"devDependencies": {
 		"@fullhuman/postcss-purgecss": "^4.1.3",

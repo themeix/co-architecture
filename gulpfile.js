@@ -16,48 +16,29 @@
     var File_Name = 'html-tokenbay.zip';
     var CSS_Files = [
  
-    './node_modules/magnific-popup/dist/magnific-popup.css',
-    './node_modules/slick-carousel/slick/slick.css',
     './node_modules/aos/dist/aos.css', 
     './assets/css/custom.css',
-    './assets/css/responsive.css',
     ];
     var JS_Files = [
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery.easing/jquery.easing.min.js',
-   './node_modules/slick-carousel/slick/slick.min.js', 
-    './node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',  
     './node_modules/aos/dist/aos.js',
-
-    './assets/js/jquery.countdown.min.js',  
-    './node_modules/waypoints/lib/jquery.waypoints.min.js',
     './node_modules/infinite-scroll/dist/infinite-scroll.pkgd.js', 
-    './node_modules/jquery.counterup/jquery.counterup.min.js', 
-
+    './assets/js/jquery.fitvids.js',   
     './assets/js/app.js',   
     ];
  
     var Production_CSS_Files = [ 
-        './dist/production/assets/css/magnific-popup.css',
-        './dist/production/assets/css/slick.css',
+   
         './dist/production/assets/css/aos.css', 
-        './dist/production/assets/css/jquery.dataTables.min.css',
         './dist/production/assets/css/tailwind.min.css',  
         './dist/production/assets/css/custom.css',
-        './dist/production/assets/css/responsive.css',
     ]; 
     var Production_JS_Files = [ 
         './dist/production/assets/js/jquery.min.js',
         './dist/production/assets/js/jquery.easing.min.js',
-        './dist/production/assets/js/slick.min.js', 
-        './dist/production/assets/js/jquery.magnific-popup.min.js',  
         './dist/production/assets/js/aos.js',
-        './dist/production/assets/js/clipboard.min.js',
-        './dist/production/assets/js/jquery.countdown.min.js',  
-        './dist/production/assets/js/jquery.waypoints.min.js',
         './dist/production/assets/js/infinite-scroll.pkgd.js', 
-        './dist/production/assets/js/jquery.counterup.min.js', 
-        './dist/production/assets/js/jquery.dataTables.min.js', 
         './dist/production/assets/js/app.js'  
     ];
 

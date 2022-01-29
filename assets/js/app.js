@@ -48,7 +48,7 @@ Preloader
 
 
 
-
+  $(".container-video, .video-container").fitVids();
  
 
   /*
