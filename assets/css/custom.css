@@ -200,34 +200,32 @@ Keyframes Animation
 
 }
 
-.accordion-box .ui-accordion-content {
-    border: none;
+
+
+
+
+
+.accordion-section-content {
+  padding: 0px;
+  display: none;
 }
-.accordion-box  span.ui-accordion-header-icon.ui-icon.ui-icon-triangle-1-s {
-    display: none;
+span.check-icon {
+    height: 36px;
+    width: 36px;
+    background: black;
+    display: flex;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 36px;
 }
-
-
-
-  .ui-icon, .ui-widget-content .ui-icon {
-   
-    display: none;
-}
-
-.accordion-box .ui-accordion-content {
-    margin-left: 36px;
-}
-
-
-.accordion-box .ui-accordion-header-active .networking-icon:before {
-    position: absolute;
+.accordion-content-left:before {
     content: "";
-   
-   
-    width: 10px;
-    height: 70px;
-    border-left: 2px solid #000;
-    top: 37px;
-    left: 15px;
-    border-style: dotted;
+    position: absolute;
+    border-left: 4px dotted #000;
+    width: 0px;
+    height: calc(100% - 28px);
+    left: 16px;
+    top: 3px;
 }

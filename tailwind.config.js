@@ -1,7 +1,8 @@
 module.exports = {
   mode: 'jit',
-  purge: ['./*.html'],
-  darkMode: false,
+     content: [ 
+      './*.html',
+    ],
    corePlugins: {
     container: true 
   },
@@ -98,9 +99,9 @@ module.exports = {
       },
       
        fontFamily: { 
-        sans: ['"Roboto", sans-serif'],  
-        display: ['"Lato", sans-serif'],
-        body: ['"Roboto", sans-serif'],   
+        sans: ['"Inter", sans-serif'],  
+        display: ['"Inter", sans-serif'],
+        body: ['"Inter", sans-serif'],   
       },
       fontSize: {
         'xs': '13px',

@@ -15,7 +15,7 @@
 
     var File_Name = 'html-co-architecture.zip';
     var CSS_Files = [
-        './assets/css/jquery-ui.css',
+   
     './node_modules/aos/dist/aos.css', 
     './assets/css/custom.css',
     ];
@@ -24,9 +24,9 @@
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/jquery.easing/jquery.easing.min.js',
     './node_modules/aos/dist/aos.js',
-    './node_modules/infinite-scroll/dist/infinite-scroll.pkgd.js', 
+ 
     './assets/js/jquery.fitvids.js',   
-    './assets/js/jquery-ui.js',   
+ 
     './assets/js/app.js',   
     
     ];
@@ -41,7 +41,7 @@
         './dist/production/assets/js/jquery.min.js',
         './dist/production/assets/js/jquery.easing.min.js',
         './dist/production/assets/js/aos.js',
-        './dist/production/assets/js/infinite-scroll.pkgd.js', 
+ 
         './dist/production/assets/js/app.js'  
     ];
 
