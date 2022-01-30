@@ -229,3 +229,8 @@ span.check-icon {
     left: 16px;
     top: 3px;
 }
+
+.hero-button-1:hover path {
+    stroke: #000000;
+    
+}

@@ -126,6 +126,7 @@ module.exports = {
       maxWidth: {
         '62.2': '200px',
         '317': '317px',
+        '350': '350px',
       
       },
       width: {
@@ -162,7 +163,7 @@ module.exports = {
       },
       opacity: {
         '60': '60%',
-        '3': '.3',
+        '3': '0.6',
         
        },
        lineHeight: {
