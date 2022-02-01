@@ -576,8 +576,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mr-4 {
@@ -588,16 +588,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-8 {
-  margin-top: 2rem;
 }
 
 .mt-9 {
@@ -684,12 +684,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-grow: 1;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -901,14 +901,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
 }
 
 .pb-4 {
@@ -1175,6 +1167,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     float: right;
   }
 
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
   .md\:mt-12 {
     margin-top: 3rem;
   }
@@ -1207,20 +1203,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 100px;
   }
 
-  .md\:mb-12 {
-    margin-bottom: 3rem;
-  }
-
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:grid {
     display: grid;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:h-14 {
@@ -1237,10 +1221,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-9\/12 {
     width: 75%;
-  }
-
-  .md\:w-8\/12 {
-    width: 66.666667%;
   }
 
   .md\:grid-cols-2 {
@@ -1272,24 +1252,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 10rem;
   }
 
+  .md\:pl-0 {
+    padding-left: 0px;
+  }
+
   .md\:pt-25 {
     padding-top: 100px;
   }
 
-  .md\:pl-16 {
-    padding-left: 4rem;
-  }
-
-  .md\:pl-0 {
-    padding-left: 0px;
+  .md\:pr-6 {
+    padding-right: 1.5rem;
   }
 
   .md\:pl-6 {
     padding-left: 1.5rem;
   }
 
-  .md\:pr-6 {
-    padding-right: 1.5rem;
+  .md\:pl-16 {
+    padding-left: 4rem;
   }
 
   .md\:text-right {
