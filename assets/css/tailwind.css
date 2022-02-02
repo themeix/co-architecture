@@ -804,6 +804,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.border-black-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-black-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(19 19 19 / var(--tw-border-opacity));
+}
+
 .border-opacity-3 {
   --tw-border-opacity: 0.6;
 }
@@ -1237,6 +1247,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: -1.25rem;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1316,6 +1330,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pr-8 {
     padding-right: 2rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
   }
 
   .md\:text-right {
@@ -1400,6 +1418,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .lg\:pl-40 {
+    padding-left: 10rem;
   }
 
   .lg\:text-5xl {
