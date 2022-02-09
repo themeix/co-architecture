@@ -540,22 +540,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 12 / span 12;
 }
 
-.col-span-5 {
-  grid-column: span 5 / span 5;
-}
-
-.col-span-7 {
-  grid-column: span 7 / span 7;
-}
-
-.col-span-4 {
-  grid-column: span 4 / span 4;
-}
-
-.col-span-8 {
-  grid-column: span 8 / span 8;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -628,10 +612,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.25rem;
 }
 
-.-mt-5 {
-  margin-top: -1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -668,12 +648,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 35px;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-96 {
+  height: 24rem;
 }
 
 .w-87\.5 {
@@ -692,12 +672,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 5rem;
 }
 
-.max-w-350 {
-  max-width: 350px;
+.w-9\/12 {
+  width: 75%;
+}
+
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-50p {
   max-width: 50%;
+}
+
+.max-w-350 {
+  max-width: 350px;
 }
 
 .flex-shrink-0 {
@@ -708,20 +700,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-grow: 1;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-5 {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.grid-cols-7 {
-  grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -740,6 +728,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: flex-end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -748,16 +740,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-8 {
   gap: 2rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .whitespace-nowrap {
@@ -766,6 +762,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-md {
   border-radius: 8px;
+}
+
+.rounded-sm {
+  border-radius: 0.25rem;
 }
 
 .rounded-b-md {
@@ -799,19 +799,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(29 29 31 / var(--tw-border-opacity));
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-black-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
 .border-black-300 {
   --tw-border-opacity: 1;
   border-color: rgb(19 19 19 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-opacity-3 {
@@ -935,10 +930,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 3rem;
 }
 
-.pr-10 {
-  padding-right: 2.5rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -963,8 +954,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1rem;
 }
 
-.pl-40 {
-  padding-left: 10rem;
+.pt-25 {
+  padding-top: 100px;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -1005,6 +1000,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-xs {
   font-size: 13px;
+}
+
+.text-5xl {
+  font-size: 3rem;
 }
 
 .font-semibold {
@@ -1070,6 +1069,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-black-200 {
   --tw-text-opacity: 1;
   color: rgb(29 29 31 / var(--tw-text-opacity));
+}
+
+.text-yellow-100 {
+  --tw-text-opacity: 1;
+  color: rgb(255 204 0 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 .opacity-3 {
@@ -1191,10 +1200,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 @media (min-width: 768px) {
 
-  .md\:absolute {
-    position: absolute;
-  }
-
   .md\:order-first {
     order: -9999;
   }
@@ -1235,16 +1240,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-left: -2.5rem;
   }
 
+  .md\:-mt-5 {
+    margin-top: -1.25rem;
+  }
+
   .md\:mt-10 {
     margin-top: 2.5rem;
   }
 
   .md\:mt-25 {
     margin-top: 100px;
-  }
-
-  .md\:-mt-5 {
-    margin-top: -1.25rem;
   }
 
   .md\:block {
@@ -1320,20 +1325,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-left: 1.5rem;
   }
 
-  .md\:pl-16 {
-    padding-left: 4rem;
+  .md\:pr-8 {
+    padding-right: 2rem;
   }
 
   .md\:pr-10 {
     padding-right: 2.5rem;
   }
 
-  .md\:pr-8 {
-    padding-right: 2rem;
+  .md\:pl-16 {
+    padding-left: 4rem;
   }
 
   .md\:pl-10 {
     padding-left: 2.5rem;
+  }
+
+  .md\:pt-40 {
+    padding-top: 10rem;
   }
 
   .md\:text-right {
