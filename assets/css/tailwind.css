@@ -1284,6 +1284,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 75%;
   }
 
+  .md\:w-11\/12 {
+    width: 91.666667%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1298,6 +1302,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:border-r {
@@ -1435,6 +1443,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:pl-40 {
     padding-left: 10rem;
+  }
+
+  .lg\:pt-40 {
+    padding-top: 10rem;
   }
 
   .lg\:text-5xl {
