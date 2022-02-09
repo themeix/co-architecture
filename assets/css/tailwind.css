@@ -1046,6 +1046,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
+.leading-1\.3 {
+  line-height: 1.3;
+}
+
 .text-indigo-500 {
   --tw-text-opacity: 1;
   color: rgb(125 124 125 / var(--tw-text-opacity));
